@@ -230,3 +230,46 @@ header .nav-link {
   background-position: center;
   background-size: cover;
 }
+.testimonial {
+  height: 100vh;
+  background-image: url("/img/testi.jpg");
+  background-size: cover;
+}
+.testimonial h2 {
+  font-weight: 700;
+}
+.t-box {
+  height: 400px;
+  width: 80%;
+}
+.t-card {
+  height: 300px;
+  border-radius: 10px;
+
+  background-color: #ffffff;
+}
+.blog {
+  height: 100vh;
+}
+.blog h2 {
+  font-weight: 700;
+}
+.blog-card {
+  height: 300px;
+  background-color: #dfdfdf;
+  margin-top: 40px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 24px, rgba(0, 0, 0, 0.1) 0px 16px 56px,
+    rgba(0, 0, 0, 0.1) 0px 24px 80px;
+}
+.blog-img {
+  height: 250px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("/img/i-3.jpg");
+}
+.footer {
+  height: 80px;
+  background-color: #0c0f2e;
+  color: white;
+}
