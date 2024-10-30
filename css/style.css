@@ -1,3 +1,6 @@
+body {
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
 .main-page {
   height: 100vh;
   background-color: #ffffff;
@@ -25,7 +28,7 @@ header h1 {
   height: 20px;
   width: 20px;
   border-radius: 20px;
-  background-color: aqua;
+  background-color: #fe7a1c;
   color: white;
   font-size: 10px;
   text-align: center;
@@ -117,4 +120,36 @@ header .nav-link {
   top: 123px;
   color: white;
   transform: rotate(45deg);
+}
+.food-gallery {
+  height: 100vh;
+  background-color: #ffffff;
+}
+.food-gallery h2 {
+  font-weight: 700;
+}
+.img-box-2 {
+  height: 200px;
+  background-size: cover;
+
+  border-radius: 10px;
+  background-position: center;
+}
+.i-1 {
+  background-image: url("/img/i-1.jpg");
+}
+.i-2 {
+  background-image: url("/img/i-2.jpg");
+}
+.i-3 {
+  background-image: url("/img/i-3.jpg");
+}
+.i-4 {
+  background-image: url("/img/i-5.jpg");
+}
+.small span {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fe7a1c;
+  margin-left: 20px;
 }
