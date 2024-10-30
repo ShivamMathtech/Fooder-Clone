@@ -1,0 +1,120 @@
+.main-page {
+  height: 100vh;
+  background-color: #ffffff;
+}
+header {
+  height: 80px;
+}
+header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-left: 111px;
+}
+.f {
+  color: #0c0f2e;
+}
+.o {
+  color: #ff6d1a;
+}
+.card {
+  position: relative;
+}
+.item {
+  position: absolute;
+  display: block;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  background-color: aqua;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  right: 24px;
+  top: 20px;
+}
+header .nav-link {
+  color: #0c0f2e;
+}
+.section-1 {
+  height: 500px;
+}
+.sec-img-1 {
+  width: 500px;
+  filter: drop-shadow(0 0 0.75rem rgb(17, 16, 16));
+  height: 100%;
+  background-image: url("/img/bowl.png");
+  background-size: cover;
+}
+.text-box-1 {
+  height: 100%;
+}
+.text-box-1 h1 {
+  font-size: 80px;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+
+.mybtn {
+  background-color: #fe7a1c;
+  bottom: 113px;
+  color: white;
+}
+.mybtn:hover {
+  background-color: #ff6d1a;
+  color: white;
+}
+.order-page {
+  height: 100vh;
+  background-color: #ffffff;
+}
+.box {
+  height: 60px;
+  width: 200px;
+  border-radius: 60px;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 40px;
+}
+.circle {
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  border: 1px solid #0d102f;
+}
+.order-page h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+}
+.order-box {
+  height: 400px;
+  width: 90%;
+}
+.img-or-1 {
+  height: 200px;
+  width: 200px;
+  background-image: url("/img/htl.png");
+  background-size: cover;
+}
+.rotated-half-circle {
+  /* Create the circle */
+  width: 200px;
+  height: 200px;
+  border: 20px solid #fe7a1c;
+  border-radius: 50%;
+  /* Halve the circle */
+  border-top-color: transparent;
+  border-right-color: transparent;
+  margin-top: -140px;
+  /* Rotate the circle */
+  transform: rotate(-45deg);
+  position: relative;
+}
+.circle-2 {
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  background-color: #fe7a1c;
+  position: absolute;
+  top: 123px;
+  color: white;
+  transform: rotate(45deg);
+}
