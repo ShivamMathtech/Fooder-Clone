@@ -153,3 +153,80 @@ header .nav-link {
   color: #fe7a1c;
   margin-left: 20px;
 }
+.Deit-page {
+  height: 100vh;
+  background-color: #ffffff;
+}
+.D_content {
+  height: 500px;
+  width: 1000px;
+}
+.D_img {
+  height: 400px;
+  width: 400px;
+  background-image: url("/img/i-6.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.D_cont {
+  font-family: serif;
+}
+.D_cont h2 {
+  font-weight: 700;
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+.card-1 {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  margin: 6px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.card-1 b {
+  color: #fe7a1c;
+  font-size: 16px;
+}
+.banner_page {
+  height: 40vh;
+  background-color: #ff6e1b;
+}
+.banner_page h2 {
+  font-weight: 700;
+  color: white;
+}
+.btn_2 {
+  width: 150px;
+  height: 40px;
+  background-color: #0c0f2e;
+  color: white;
+}
+.btn_2:hover {
+  color: white;
+  background-color: #0c0f2e;
+}
+.bnnim-box {
+  height: 35vh;
+  width: 400px;
+  background-image: url("/img/order.jpg");
+  background-size: cover;
+}
+.popular-food {
+  height: 100vh;
+  background-color: #ffffff;
+}
+.popular-food h2 {
+  font-weight: 700;
+}
+.pop-box {
+  height: 300px;
+  width: 80%;
+
+  margin-top: 40px;
+}
+.img-box-3 {
+  height: 230px;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+}
